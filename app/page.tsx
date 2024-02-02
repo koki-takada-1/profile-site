@@ -15,7 +15,7 @@ export default function Home() {
             <p className='p-2 text-xl font-semibold'>スキル</p>
             <ul className='px-4'>
               <li>言語：<span className='text-sm'>C/C++, Python, Java, JavaScript</span></li>
-              <li>Pythonフレームワーク：<span className='text-sm'>Tensorflow, Pytorch, FastAPI, streamlit, Django</span></li>
+              <li>Pythonフレームワーク：<span className='text-sm'>Tensorflow, Pytorch, FastAPI, Streamlit, Django</span></li>
               <li>Javaフレームワーク：<span className='text-sm'>Spring Framework</span></li>
               <li>JavaScriptフレームワーク：<span className='text-sm'>Next.js</span></li>
               <li>その他：<span className='text-sm'>MySQL, MongoDB, Git/GitHub, LaTex, HTML/CSS</span></li>
