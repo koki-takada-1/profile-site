@@ -1,27 +1,40 @@
-import Hamburger from './components/Hamburger'
+import Framework from './components/Framework';
+import Hamburger from './components/Hamburger';
+import Other from './components/Other';
+import Skill from './components/Skill';
 
 export default function Home() {
+
   return (
     <>
       <Hamburger></Hamburger>
       <main className='p-7 font-sans'>
-        <section id="Top">
+        <section id="About me">
           <h2 className='mb-2 text-3xl font-semibold'>About me</h2>
           <div className='px-2'>
             <p className='p-2 text-xl font-semibold'>髙田 晃希</p>
             <p className='px-4'>私は現在，データ解析に関する研究やプログラミング教室での指導，業務改善アプリやソーシャルプラットフォームの開発を行っています．</p>
             <p className='p-2 text-xl font-semibold'>興味のある分野</p>
             <p className='px-4'>ロジスティクス，物流，人工知能，データサイエンス，ソフトウェア</p>
-            <p className='p-2 text-xl font-semibold'>スキル</p>
-            <ul className='px-4'>
+            {/* <p className='p-2 text-xl font-semibold'>スキル</p> */}
+            {/* <ul className='px-4'>
               <li>言語：<span className='text-sm'>C/C++, Python, Java, JavaScript, Go</span></li>
               <li>Pythonフレームワーク：<span className='text-sm'>Tensorflow, Pytorch, FastAPI, Streamlit, Django</span></li>
               <li>Javaフレームワーク：<span className='text-sm'>Spring Framework</span></li>
               <li>JavaScriptフレームワーク：<span className='text-sm'>Next.js</span></li>
               <li>Goフレームワーク：<span className='text-sm'>Echo</span></li>
               <li>その他：<span className='text-sm'>MySQL, MongoDB, Git/GitHub, LaTex, HTML/CSS</span></li>
-            </ul>
+            </ul> */}
           </div>
+        </section>
+        <br></br>
+        <br></br>
+        <br></br>
+        <section id="Skill">
+          <h2 className='mb-2 text-3xl font-semibold'>Skill</h2>
+          <Skill></Skill>
+          <Framework></Framework>
+          <Other></Other>
         </section>
         <br></br>
         <br></br>

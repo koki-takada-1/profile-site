@@ -16,7 +16,7 @@ export default function Header() {
     };
 
     return (
-        <header className="py-6 px-4 flex justify-between items-center bg-white text-black font-sans border-b border-gray-200 shadow-md sticky top-0">
+        <header className="z-[100] py-6 px-4 flex justify-between items-center bg-white text-black font-sans border-b border-gray-200 shadow-md sticky top-0">
             <Link className="z-50" href="/" onClick={handleMenuClose}>
                 <span className="font-semibold text-xl ml-3 hover:text-gray-300 duration-300">Koki Takada</span>
                 {/* <Image src="/github-mark.png" width={30} height={30} alt="Tailwind CSS" /> */}
@@ -37,8 +37,13 @@ export default function Header() {
                     }
                 >
                     <li>
-                        <Link onClick={handleMenuClose} href="/#Top" className="hover:text-gray-300 duration-300">
-                            Top
+                        <Link onClick={handleMenuClose} href="/#About me" className="hover:text-gray-300 duration-300">
+                            About me
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={handleMenuClose} href="/#Skill" className="hover:text-gray-300 duration-300">
+                            Skill
                         </Link>
                     </li>
                     <li>
