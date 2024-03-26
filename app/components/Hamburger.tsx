@@ -16,9 +16,9 @@ export default function Header() {
     };
 
     return (
-        <header className="z-[100] py-6 px-4 flex justify-between items-center bg-white text-black font-sans border-b border-gray-200 shadow-md sticky top-0">
+        <header className="z-[500] py-6 px-4 flex justify-between items-center bg-white text-black font-sans border-b border-gray-200 shadow-md sticky top-0">
             <Link className="z-50" href="/" onClick={handleMenuClose}>
-                <span className="font-semibold text-xl ml-3 hover:text-gray-300 duration-300">Koki Takada</span>
+                <span className="z-50 font-semibold text-xl ml-3 hover:text-gray-300 duration-300">Koki Takada</span>
                 {/* <Image src="/github-mark.png" width={30} height={30} alt="Tailwind CSS" /> */}
             </Link>
 
@@ -68,7 +68,7 @@ export default function Header() {
                     </li>
                 </ul>
             </nav>
-            <button className="z-50 space-y-2 md:hidden" onClick={handleMenuOpen}>
+            <button className="z-[500] space-y-2 md:hidden" onClick={handleMenuOpen}>
                 <span
                     className={
                         isOpen

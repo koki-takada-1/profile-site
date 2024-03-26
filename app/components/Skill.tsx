@@ -52,7 +52,7 @@ const Skill = () => {
                     {friendlyData.map(({ title, img }) => (
                         <Tilt
                             key={title}
-                            className="border border-slate-300 mx-2 h-48 col-span-12 min-[480px]:col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2 text-center box p-8 rounded-xl flex flex-col items-center justify-center shadow">
+                            className="border border-slate-300 bg-white mx-2 h-48 col-span-12 min-[480px]:col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2 text-center box p-8 rounded-xl flex flex-col items-center justify-center shadow">
                             <div className="p-3 rounded-2xl bg-primary/5 box dark:bg-bg3 mb-4">
                                 <Image src={img} width={70} height={70} alt="icon" />
                             </div>
