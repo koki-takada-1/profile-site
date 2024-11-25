@@ -28,16 +28,8 @@ const friendlyData = [
         img: "java-14.svg",
     },
     {
-        title: "PHP",
-        img: "php.svg",
-    },
-    {
         title: "Go",
         img: "golang-1.svg",
-    },
-    {
-        title: "Rust",
-        img: "rust.svg",
     },
 ];
 

@@ -20,14 +20,6 @@ const friendlyData = [
         img: "/docker.svg",
     },
     {
-        title: "Kubernetes",
-        img: "/kubernets.svg",
-    },
-    {
-        title: "Jenkins",
-        img: "/jenkins.svg",
-    },
-    {
         title: "LaTex",
         img: "/latex.svg",
     },
@@ -42,6 +34,10 @@ const friendlyData = [
     {
         title: "AWS",
         img: "/aws-2.svg"
+    },
+    {
+        title: "gRPC",
+        img: "/grpc.svg"
     },
 ];
 

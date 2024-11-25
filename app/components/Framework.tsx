@@ -32,10 +32,6 @@ const friendlyData = [
         img: "/echo.png",
     },
     {
-        title: "Laravel",
-        img: "/laravel.svg",
-    },
-    {
         title: "Selenium",
         img: "/selenium-1.svg",
     },

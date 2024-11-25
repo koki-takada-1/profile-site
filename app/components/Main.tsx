@@ -34,7 +34,7 @@ const Main = () => {
                     <h2 className='mb-2 text-3xl font-semibold'>About me</h2>
                     <div className='px-2'>
                         <p className='p-2 text-xl font-semibold'>髙田 晃希</p>
-                        <p className='px-4 mb-5'>私は現在，データ解析に関する研究やプログラミング教室での指導，業務改善アプリやソーシャルプラットフォームの開発を行っています．上流から下流工程まで全てお任せください．</p>
+                        <p className='px-4 mb-5'>私は現在，データ解析に関する研究やプログラミング教室での指導，業務改善アプリやソーシャルプラットフォームの開発を行っています.</p>
                         <p className='p-2 text-xl font-semibold'>主な専門領域</p>
                         <p className='px-4 mb-5'>機械学習・深層学習，フロントエンド・バックエンド</p>
                         <p className='p-2 text-xl font-semibold'>興味のある分野</p>
